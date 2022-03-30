@@ -1,0 +1,262 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap');
+/**/
+
+@font-face {
+  font-family: Nautiluspompilius;
+  src: url("../fonts/nautiluspompilius.woff") format("woff"),
+    url("../fonts/nautiluspompilius.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Tangak;
+  src: url("../fonts/tangak.woff") format("woff"),
+    url("../fonts/tangak.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+[class*="__container"] {
+   max-width: 1020px;
+   margin: 0px auto;
+}
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+}
+.header {
+}
+.header__container {
+}
+.background {
+   background: url("../img/duotone.png") 0 / cover no-repeat fixed;
+   min-height: 800px;
+}
+.main {
+}
+.main__container {
+}
+.main__contant {
+}
+.premier {
+}
+.premier-title {
+   font-size: 56px;
+   font-family: Roboto, sans-serif;
+   font-weight: 900;
+   color: rgba(255, 255, 255, 1);
+   padding: 300px 0 0 0;
+   max-width: 580px;
+   margin: 0 0 55px 0;
+}
+.premier__button {
+   
+   
+   
+}
+.button {
+   background-color: rgba(242, 114, 111, 1);
+   padding: 20px 30px;
+   color: rgba(255, 255, 255, 1);
+   font-family: Roboto, sans-serif;
+   font-weight: 700;
+   font-size: 12px;
+   border-radius: 8px;
+   text-transform: uppercase;
+}
+.button:hover {
+   text-decoration: underline;
+   box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+   background-color: rgb(247, 120, 118);;
+}
+.who-we-are {
+    margin: -80px 0 250px 0;
+    
+}
+.who-we-are__container {
+   background: #5D62B5;
+  border-radius: 40px;
+  padding: 103px 0 0 87px;
+  min-height: 700px;
+  
+}
+.who-we-are__contant {
+   position: relative;
+   
+}
+.who-we-are__rounds {
+   background:  url("../img/rounds.png") right no-repeat;
+   width: 210px;
+   height: 320px;
+   position: absolute;
+   top: -214px;
+   left: 800px;
+   }
+.who-we-are__logo {
+   background: url("../img/icons/logo.svg") 0 no-repeat;
+   font-size: 12px;
+   padding: 0 0 0 35px;
+   font-family: Roboto, sans-serif;
+   font-weight: 700;
+   color: rgba(245, 245, 245, 1);
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   margin: 0 0 40px 0;
+}
+.who-we-are__contant {
+   position: relative;
+   
+}
+.who-we-are__title {
+   line-height: 1.1;
+   font-size: 36px;
+   font-family: Roboto, sans-serif;
+   font-weight: 900;
+   color: rgba(255, 255, 255, 1);
+   margin: 0 0 50px 0;
+   max-width: 580px;
+}
+.who-we-are__subtitle {
+   font-size: 16px;
+   font-family: Roboto, sans-serif;
+   font-weight: 400;
+   line-height: 1.5;
+   color: rgba(245, 245, 245, 1);
+   margin: 0 0 40px 0;
+   max-width: 845px;
+}
+.who-we-are__image {
+   width: 894px;
+   height: 468px;
+   position: absolute;
+   top: 240px;
+   left: -24px;
+}
+.who-we-are__backg {
+   background: url("../img/Blob.png") 0 no-repeat;
+   width: 100%;
+   height: 389px;
+   position: absolute;
+   top: 204px;
+   left: -100px;
+}
+/*-------------dogs---------------------*/
+.dogs {
+}
+.dogs__body {
+   background: url("../img/dogs/impress.jpg") 0 / cover no-repeat fixed;
+}
+.dogs__container {
+   background-color: rgba(102, 101, 101, 0.7);
+   box-shadow: 5px 5px 5px 4px rgb(0, 0, 0);
+   max-width: 1300px;
+}
+.dogs__contant {
+   padding: 40px;
+}
+.facts {
+   font-size: 30px;
+   font-family: Tangak;
+   font-weight: 400;
+  font-style: italic;
+  
+}
+.facts p{
+   color: rgb(227, 235, 241);
+   font-size: 50px;
+   font-family: Nautiluspompilius, sans-serif;
+   font-weight: 400;
+   margin: 0 0 40px 0;
+   text-align: center;
+}
+.facts p::after {
+   content: "";
+   display: block;
+    height: 2px;
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgb(250, 250, 250);
+    transition: all 0.3s ease 0s;
+}
+.facts p:hover:after {
+   content: "";
+   display: block;
+    height: 2px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(250, 250, 250);
+    
+}
+.facts > *:not(last-of-tipe){
+   margin: 0 0 ;
+}
+.facts__list {
+   line-height: 1.9;
+   color: rgb(253, 195, 194);
+   
+}
+.facts__list-items {
+   margin: 0 0 0 40px;
+}
+.facts__list-items::before {
+   content: "";
+   display: inline-block;
+   background: url("../img/dogs/eat.webp") 0 / 50px no-repeat;
+   min-width: 50px;
+   min-height: 50px;
+   margin: 0 20px 0 -70px;
+}
+.facts__list-items:hover::before  {
+   content: "";
+   display: inline-block;
+   background-size: 70px;
+   min-width: 70px;
+   min-height: 70px;
+}
+.facts__list-items:hover{
+   font-size: 40px;
+}
+.facts__list-items span {
+   color: rgb(161, 241, 137);
+
+}
+.image {
+   background-color: rgba(41, 195, 190, 1);
+   border-radius: 15px;
+   position: relative;
+   min-height: 500px;
+}
+.image__container {
+}
+.image-items {
+}
+.items__image-pup {
+   width: 744px;
+   height: 456px;
+   position: relative;
+   top: 44px;
+   right: 94px;
+   z-index: 3;
+}
+.items__image-blob {
+   width: 368px;
+   height: 234px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 2;
+}
+.items__image-rounds {
+   position: absolute;
+   top: 122px;
+   left: 5px;
+
+}
+
+
+
+
+
+
